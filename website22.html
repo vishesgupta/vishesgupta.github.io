@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/web.css">
+    <style>
+        small{
+            font-size: 23px;
+            font-weight: bolder;
+            color:black;
+        }
+        h1{
+            font-size: 80px;
+            margin: 10px 0 30px;
+            line-height: 80px;
+            color:black;
+        }
+        h2{
+            font-size: 44px;
+            color: black;
+        }
+        .sidebar{
+            width: 50px;
+            height: 100vh;
+            background: linear-gradient(yellow,red);
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .menu{
+            display: block;
+            width: 25px;
+            margin: 40px auto 0;
+            cursor: pointer;
+            height: 37px;
+            width: 50px;
+        }
+        .social-link img{
+            width: 50px;
+            margin: 16px auto;
+            cursor: pointer;
+        }
+        .useful-link img{
+            width: 49px;
+            margin: 28px auto;
+          /*  top: 77px;**/
+          cursor: pointer;
+        }
+        .bubbles img{
+           width: 52px;
+           animation: bubble 8s linear infinite;
+
+        }
+        .bubbles{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            position: absolute;
+            bottom: -70px;
+        }
+        @keyframes bubble{
+            0%{
+                transform: translateY(0);
+                opacity: 0;
+            }
+            50%{
+                
+                opacity: 0.6;
+            }
+            70%{
+                
+                opacity: 0.7;
+            }
+            100%{
+                transform: translateY(-80vh);
+                opacity: 0.9;
+            }
+            
+        }
+        .bubbles img:nth-child(1){
+            animation-delay: 3s;
+            width: 55px;
+        }
+        .bubbles img:nth-child(2){
+            animation-delay: 1s;
+            width: 44px;
+        }
+        .bubbles img:nth-child(3){
+            animation-delay: 4.5s;
+            width: 33px;
+        }
+        .bubbles img:nth-child(4){
+            animation-delay: 2s;
+            width: 46px;
+        }
+        .bubbles img:nth-child(5){
+            animation-delay: 2.2s;
+            width: 33px;
+        }
+        .bubbles img:nth-child(6){
+            animation-delay: 1s;
+            width: 43px;
+        }
+        .bubbles img:nth-child(7){
+            animation-delay: 0.5s;
+            width: 56px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="navbar">
+            <button type="button">SIGN UP</button>
+        </div>
+        <div class="content">
+            <small>WELCOME TO OUR</small>
+            <H1>GUPTA's STUDIO</H1>
+            <H2>I AM VISHESH GUPTA</H2>
+            <button type="button">TAKE A TOUR </button>
+        </div>
+        <div class="sidebar">
+            <img src="menu.jpg" class="menu">
+            <div class="social-link">
+                <img src="fac.jpg" alt="">
+                <img src="in.jpg" alt="">
+                <img src="tii.jpg" alt="">
+            </div>
+            <div class="useful-link">
+                <img src="share.jpg" alt="">
+                <img src="info.jpg" alt="">
+            </div>
+        </div>
+        <div class="bubbles">
+            <img src="ooo.jpg" alt="">
+            <img src="ooo.jpg" alt="">
+            <img src="ooo.jpg" alt="">
+            <img src="ooo.jpg" alt="">
+            <img src="ooo.jpg" alt="">
+            <img src="ooo.jpg" alt="">
+            <img src="ooo.jpg" alt="">
+         
+        </div>
+    </div>
+
+</body>
+</html>
