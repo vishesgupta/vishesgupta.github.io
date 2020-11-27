@@ -307,7 +307,7 @@ section{
 }
 .contact{
     display: inline-block;
-    background:rgba(0, 0, 0, 0.7) url('image/C1.jpg');
+    background:rgba(0, 0, 0, 0.7) url('C1.jpg');
     font-family: 'Abril Fatface', cursive;
 }
 .contact h3{
