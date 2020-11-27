@@ -91,7 +91,7 @@ section{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 1600px;
     min-height: 100vh;
     width:100%;
     background-color: #232427;
@@ -315,7 +315,7 @@ section{
       padding: 1px 389px; 
       /* background-color: aqua; */
       margin: -1px 0px;
-      color: khaki;
+      color: black;
       font-weight: bolder;
       letter-spacing: 3px;
 }
