@@ -1,0 +1,124 @@
+@media only screen and (max-width:858px){
+    .firstHalf h1 {
+     padding: 1px 100px;
+    }
+    .address-text {
+     padding: 1px 117px;
+    }
+    .navbar{
+        margin-bottom: -1px;
+    }
+     .navbar-toggler{
+         padding: 1px 13px;
+         padding-right: 13px;
+     }
+     #navbarSupportedContent li {
+         text-align: center;
+     }
+     #navbarSupportedContent li a {
+       font-size: 30px;
+     }
+     .form-inline {
+         padding: 1px 274px;
+     }
+     .container23 h2
+     {
+         padding: 0px 273px;
+     }
+     .contact{
+         width: 100%;
+     }
+     .contact h3 {
+         padding: 1px 303px;
+     }
+  }
+  @media only screen and (max-width:400px){
+     .firstHalf {
+         padding: 18px 0px;
+     }
+     .firstHalf h1{
+         padding: 1px 0px;
+     }
+     .address-text {
+         padding: 1px 23px;
+     }
+     #navbarSupportedContent li {
+         text-align: left;
+         padding: 11px 48px;
+     }
+     .form-inline {
+         padding: 1px 41px;
+     }
+     .form-control {
+         padding: 1px 110px;
+     }
+     .btn{
+         padding: 1px 41px;
+     margin: 11px 65px;
+ 
+     }
+     .container23 h2 {
+         padding: 0px 41px;
+     }
+     .box1{
+         margin: 15px 54px;
+     }
+     .contact h3 {
+         padding: 1px 84px;
+     }
+     .contact12 {
+         padding: 1px 37px;
+     }
+  }
+  @media only screen and (min-width:389px){
+     #navbarSupportedContent li{
+         padding: 11px 43px;
+     }
+     .form-control {
+         padding: 1px 99px;
+     }
+     .contact h3 {
+         padding: 1px 63px;
+     }
+     .contact12 {
+         padding: 1px 17px;
+     }
+     
+  }
+  @media only screen and (max-width:450px){
+      .firstHalf{
+          text-align: left;
+          padding: 1px 11px;
+      }
+     .firstHalf h1{
+         padding: 0;
+     }
+     .address-text{
+         padding: 0;
+     }
+     #navbarSupportedContent li {
+         text-align: left;
+         padding: 6px 0;
+     }
+     .form-inline {
+         padding: 0;
+         visibility: hidden;
+     }
+     .contact h3 {
+         padding: 1px 81px;
+     }
+     .form-control {
+         text-align: left;
+         /* padding: 1px 154px; */
+     }
+     .container23 h2{
+         padding: 0;
+     }
+     .contact h3 {
+         padding: 1px 94px;
+     }
+     .box1{
+         margin: 15px 46px;
+     }
+  }
+ 
