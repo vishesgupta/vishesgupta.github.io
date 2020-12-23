@@ -551,6 +551,11 @@ footer span a:hover{
 
 
 /* responsive media query start */
+@media (max-width: 1522px){
+    .max-width{
+        max-width: 1454px;
+    }
+}
 @media (max-width: 1300px) {
     .home .max-width{
         margin-left: 0px;
