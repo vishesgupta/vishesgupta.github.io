@@ -376,7 +376,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "how's my looks";
 }
 .teams .carousel .card{
     background: #222;
@@ -654,7 +654,7 @@ footer span a:hover{
 
 @media (max-width: 500px) {
     .home .home-content .text-2{
-        font-size: 50px;
+        font-size: 43px;
     }
     .home .home-content .text-3{
         font-size: 27px;
